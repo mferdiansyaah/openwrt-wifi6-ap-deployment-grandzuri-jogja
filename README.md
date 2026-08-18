@@ -3,6 +3,12 @@
 Documentation of an OpenWrt-based Wi-Fi 6 Access Point preparation,
 configuration, and verification process.
 
+## Disclaimer
+
+Configuration examples have been sanitized for portfolio and
+educational purposes. Confidential credentials and sensitive
+network information are not included.
+
 ## Project Overview
 
 This project documents the preparation and verification of network
@@ -62,8 +68,3 @@ prepared for deployment.
 Sanitized examples of OpenWrt network, VLAN, firewall,
 and wireless configuration.
 
-## Disclaimer
-
-Configuration examples have been sanitized for portfolio and
-educational purposes. Confidential credentials and sensitive
-network information are not included.
