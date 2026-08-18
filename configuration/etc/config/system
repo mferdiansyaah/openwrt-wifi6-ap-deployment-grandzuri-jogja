@@ -1,0 +1,29 @@
+
+config system
+	option ttylogin '0'
+	option log_size '64'
+	option urandom_seed '0'
+	option zonename 'Asia/Jakarta'
+	option timezone 'WIB-7'
+	option log_proto 'udp'
+	option conloglevel '8'
+	option cronloglevel '8'
+	option hostname 'AX820-GrandZuri-Jogja'
+
+config timeserver 'ntp'
+	option enabled '1'
+	list server '192.168.20.3'
+	list server '113.212.113.212'
+
+config led 'led_power'
+	option name 'POWER'
+	option sysfs 'ax820:sys'
+	option default '1'
+
+config led 'led_watchdog'
+	option name 'WATCHDOG'
+	option sysfs 'ax820:watchdog'
+	option trigger 'timer'
+	option delayon '100'
+	option delayoff '100'
+
